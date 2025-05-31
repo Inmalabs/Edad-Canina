@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/conoce_tu_edad_canina"
+            android:textColor="@color/md_theme_dark_primaryContainer"
+            android:textSize="20sp"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+
+            />
+
+        <ImageView
+            android:id="@+id/imagen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/perro" />
+
+        <EditText
+            android:id="@+id/edit_edad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/tu_edad"
+            android:textSize="26sp"
+            android:padding="16dp"
+            android:layout_margin="10dp"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textview_result"
+            android:layout_gravity="center_horizontal"
+            android:padding="16dp"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/calcular"
+            android:textSize="26sp"
+            android:layout_margin="30dp" />
+
+
+    </LinearLayout>
+</layout>

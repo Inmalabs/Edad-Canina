@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name" translatable="false">Edad Canina</string>
+    <string name="conoce_tu_edad_canina">Conoce tu edad canina</string>
+    <string name="tu_edad">Tu edad</string>
+    <string name="calcular">Calcular</string>
+    <string name="en_edad_de_perro_tienes">"En edad de perro tienes %d años"</string>
+</resources>

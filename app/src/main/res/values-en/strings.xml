@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Canine Age</string>
+    <string name="conoce_tu_edad_canina">Know your canine age</string>
+    <string name="tu_edad">Your age</string>
+    <string name="calcular">Calculate</string>
+    <string name="en_edad_de_perro_tienes">In dog age you are %d years old</string>
+</resources>
